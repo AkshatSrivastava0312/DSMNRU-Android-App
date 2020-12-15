@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akshat.dsmnruandroidapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".faculty.classroom.AddClassroom"></activity>
+        <activity android:name=".faculty.UpdateFacultyAccountInfo" />
+        <activity android:name=".FacultyLogin" />
+        <activity android:name=".faculty.FacultyHome" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".LoginHome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".admin.UpdateAccountInfo" />
+        <activity android:name=".admin.students.UpdateSelectedStudentActivity" />
+        <activity android:name=".admin.students.AddStudents" />
+        <activity android:name=".admin.students.UpdateStudents" />
+        <activity android:name=".admin.notice.DeleteNotice" />
+        <activity android:name=".admin.faculty.UpdateSelectedFacultyActivity" />
+        <activity android:name=".admin.faculty.AddFaculty" />
+        <activity android:name=".admin.faculty.UpdateFaculty" />
+        <activity android:name=".admin.notice.UploadNotice" />
+        <activity android:name=".admin.AdminHome" />
+    </application>
+
+</manifest>

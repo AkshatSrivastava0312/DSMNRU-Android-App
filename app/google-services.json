@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "855263661249",
+    "project_id": "dsmnru-android-app-2ab44",
+    "storage_bucket": "dsmnru-android-app-2ab44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855263661249:android:e360ff3596c9938c9bd840",
+        "android_client_info": {
+          "package_name": "com.akshat.dsmnruandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855263661249-bees2lhaaov1cthjq5btsaksr6vfoc0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEmNojIP0-Wp21PIbUYumDzs1thFEUIv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855263661249-bees2lhaaov1cthjq5btsaksr6vfoc0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
